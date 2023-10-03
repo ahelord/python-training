@@ -1,0 +1,25 @@
+ ciertas reglas que debemos seguir al elegir el nombre de una variable:
+
+- El nombre puede comenzar con un alfabeto en mayúscula o minúscula.
+
+Por ejemplo, puedes definir tu variable de ingresos como Incomeo income, ambas son válidas.
+
+- Todos los nombres distinguen entre mayúsculas y minúsculas.
+
+Por ejemplo, Incomey incomeson dos variables diferentes y no una.
+
+- Puede aparecer un número en el nombre, pero no al principio.
+
+Por ejemplo, 12incomeno es un nombre válido pero income12o in12comeson válidos.
+
+- El _ puede aparecer en cualquier parte del nombre.
+
+Por ejemplo, _incomeo income_son nombres válidos.
+
+- No se permiten espacios. En su lugar, debemos usar Snake_case para hacer legibles los nombres de las variables.
+
+Por ejemplo, monthly_incomees un nombre válido.
+
+- El nombre de la variable debe ser algo significativo que describa el valor que contiene, en lugar de ser caracteres aleatorios.
+
+Por ejemplo, inco incluso income no daría ninguna información útil excepto nombres como weekly_income, monthly_incomeo annual_incomeexplicaría el propósito de nuestra variable definida.
