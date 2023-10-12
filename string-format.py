@@ -3,7 +3,7 @@ El formato de cadena significa sustituir valores en una cadena. A continuación 
 
 Insertar cadenas dentro de una cadena
 Insertar números enteros dentro de una cadena
-Insertar flotadores dentro de una cadena
+Insertar flotantes dentro de una cadena
 """
 
 string1 = "I like %s" % "Python" #Es %s el especificador de formato es porcentaje string

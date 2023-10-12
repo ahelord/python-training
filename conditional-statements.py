@@ -57,3 +57,95 @@ if num > 5:
 # The if condition ends, but the changes made inside it remain
 print(num)
 print(new_num)
+
+
+print("* Declaracion if-else")
+
+num = 60
+
+if num <= 50:
+    print("The number is less than or equal to 50")
+else:
+    print("The number is greater than 50")
+
+print("* expresion condicional")
+num = 60
+
+output = "The number is less than or equal to 50" if num <= 50 else "The number is greater than 50"
+
+print(output)
+
+print("* Declaracion if-elif-else")
+light = "Red"
+
+if light == "Green":
+    print("Go")
+elif light == "Yellow":
+    print("Caution")
+elif light == "Red":
+    print("Stop")
+else:
+    print("Incorrect light signal")
+
+# elif puede existir sin else
+if light == "Green":
+    print("Go")
+elif light == "Yellow":
+    print("Caution")
+elif light == "Red":
+    print("Stop")
+
+num = 5
+
+if num == 0:
+    print("Zero")
+elif num == 1:
+    print("One")
+elif num == 2:
+    print("Two")
+elif num == 3:
+    print("Three")
+elif num == 4:
+    print("Four")
+elif num == 5:
+    print("Five")
+elif num == 6:
+    print("Six")
+elif num == 7:
+    print("Seven")
+elif num == 8:
+    print("Eight")
+elif num == 9:
+    print("Nine")
+
+
+
+print("* ejercicio")
+
+"""
+En este desafío deberás descontar un precio según su valor.
+
+Si el precio es 300o superior, habrá un 30%descuento.
+
+Si el precio está entre 200y 300( 200incluido), habrá 20%descuento.
+
+Si el precio está entre 100y 200( 100incluido), habrá 10%descuento.
+
+Si el precio es inferior a 100, habrá un 5%descuento.
+
+Si el precio es negativo no habrá descuento.
+"""
+price = 250
+
+if price<0:
+    price=0
+elif price>=300:
+    price-=price*0.3
+elif price< 299 and price>=200:
+    price-=price*0.2
+elif price< 199 and price>=100:
+    price-=price*0.1
+elif price< 100:
+    price-=price*0.05
+
+print(price)
