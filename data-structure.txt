@@ -1,0 +1,23 @@
+Definición
+Una estructura de datos es una forma de almacenar y organizar datos según un determinado formato o estructura .
+
+También podemos encontrar ejemplos de estructuras de datos de la vida real.
+
+Hay muchísimas listas en línea sobre todo tipo de temas. Otro ejemplo es el uso de tablas para mostrar horarios. Una novela almacena y organiza el texto en párrafos.
+
+Todos estos medios almacenan datos y nos permiten manipularlos o acceder a ellos de cierta manera.
+
+Las estructuras de datos son una parte crucial de la programación informática. Dado que frecuentemente nos ocupamos de la manipulación de datos, es de suma importancia organizarlos de una manera eficiente y significativa.
+
+Estructuras de datos en Python
+Python está equipado con varias estructuras de datos integradas para ayudarnos a manejar de manera eficiente grandes cantidades de datos.
+
+Las cuatro estructuras de datos integradas principales que se ofrecen en Python3 son:
+
+List
+
+Tuple
+
+Dictionary
+
+Set
