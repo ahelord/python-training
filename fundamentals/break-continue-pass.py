@@ -35,12 +35,15 @@ for i in range(0, 10):
         continue # Skipping even numbers
     print(i) # Printing odd numbers
 
+print("* pass clausula")
 
-a=5
-b=10
-a=a^b
-b=a^b
-a=a^b
-print(a,b)
+colores = ["azul", "verde", "rojo"]
+"""for color in colores:
+    # Aqui voy a hacer algo que todavia no se # IndentationError: expected an indented block after 'for' statement on line 41 """
+"""
+No se puede ejecutar el codigo por que espera que se implemente el for con pass se puede evitar la implementacion
+"""
 
-
+for color in colores:
+    # Aqui voy a hacer algo que todavia no se
+    pass
